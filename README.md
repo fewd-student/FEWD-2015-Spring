@@ -1,4 +1,4 @@
 # FEWD 2015 - Spring
 
-* Author: 
-* Website: 
+* Author: Ben Plum
+* Website: http://benplum.com
