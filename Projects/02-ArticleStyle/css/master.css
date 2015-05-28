@@ -1,0 +1,172 @@
+body {
+	color: #222;
+	font-family: Georgia, serif;
+	font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #222;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight: 900;
+	margin: 25px 0;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+h4 {
+	color: #999;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+p,
+li {
+	line-height: 1.8;
+}
+
+p {
+	margin: 25px 0;
+}
+
+li {
+	margin: 5px 0;
+}
+
+ul,
+ol {
+	margin: 25px 0;
+}
+
+.block_left {
+	display: block;
+	float: left;
+	margin: 0 25px 25px 0;
+}
+
+.block_right {
+	display: block;
+	float: right;
+	margin: 0 0 25px 25px;
+}
+
+.container_thin,
+.container_wide {
+	margin: 0 auto;
+}
+
+.container_thin {
+	width: 775px;
+}
+
+.container_wide {
+	width: 975px;
+}
+
+.article {
+	padding: 50px 0;
+}
+
+.header {
+	text-align: center;
+	margin-bottom: 65px;
+}
+
+.header h1 {
+	margin-bottom: 10px;
+}
+
+.header p {
+	margin-top: 10px;
+}
+
+.intro {
+	color: #999;
+	font-family: Georgia, serif;
+	font-size: 20px;
+}
+
+.navigation {
+	border: 1px solid #ccc;
+	border-width: 1px 0;
+	margin: 75px 0;
+	padding: 75px;
+}
+
+.navigation h4 {
+	margin: 0 0 15px;
+}
+
+.navigation ol {
+	margin: 0;
+	padding: 0;
+}
+
+.navigation ol ol {
+	list-style: none;
+}
+
+.navigation li {
+	color: #999;
+	font-family: Georgia, serif;
+	font-size: 20px;
+}
+
+.navigation li a {
+	color: #222;
+}
+
+.navigation li li {
+	font-size: 16px;
+}
+
+.navigation li li a {
+	color: #666;
+}
+
+.quote {
+	background: #f6f6f6;
+	border-left: 10px solid #e3e3e3;
+	font-family: Georgia, serif;
+	font-size: 20px;
+	font-style: italic;
+	line-height: 1.8;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding: 40px;
+/* 	width: 885px; */ /* 975 - 40 - 40 - 10 */
+}
+
+.picture { }
+.picture_small {
+	width: 375px;
+}
+
+.picture img {
+	border: 1px solid #ccc;
+	display: block;
+	width: 100%;
+}
+
+.caption {
+	color: #666;
+	display: block;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.4;
+	margin-top: 10px;
+}
