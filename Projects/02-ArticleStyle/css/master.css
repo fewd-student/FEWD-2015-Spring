@@ -82,8 +82,8 @@ ol {
 }
 
 .header {
-	text-align: center;
 	margin-bottom: 65px;
+	text-align: center;
 }
 
 .header h1 {
@@ -91,6 +91,8 @@ ol {
 }
 
 .header p {
+	color: #999;
+	font-size: 20px;
 	margin-top: 10px;
 }
 
@@ -145,10 +147,9 @@ ol {
 	font-size: 20px;
 	font-style: italic;
 	line-height: 1.8;
-	margin-top: 40px;
-	margin-bottom: 40px;
+	margin: 40px -80px 40px -100px;
 	padding: 40px;
-/* 	width: 885px; */ /* 975 - 40 - 40 - 10 */
+	width: 885px;
 }
 
 .picture { }
