@@ -1,31 +1,81 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="UTF-8">
 		<title>Grinders Coffee Shop</title>
-
-		<link href='http://fonts.googleapis.com/css?family=Lato|Sanchez' rel='stylesheet' type='text/css'>
-
+		<link href="http://fonts.googleapis.com/css?family=Lato|Sanchez" rel="stylesheet">
 		<link href="css/master.css" rel="stylesheet">
-
 	</head>
 	<body>
-
-		<header>
-			<h1>We Are Grinders Coffee Co.</h1>
-			<p>Grinders is where people gather to experience the true spirit of generosity. This is not a term we use lightly, and it's what keeps our customers coming back for more.</p>
+		<header class="bar bar_black header">
+			<div class="container container_wide">
+				<h1 class="logo">Grinders Coffee Co.</h1>
+				<p class="intro">Grinders is where people gather to experience the true spirit of generosity. This is not a term we use lightly, and it's what keeps our customers coming back for more.</p>
+			</div>
 		</header>
-
-		<section>
-			<!-- Menu -->
+		<section class="bar bar_gold menu">
+			<div class="container">
+				<div class="menu_set">
+					<h2>Coffee Bar</h2>
+					<ul class="menu_list clearfix">
+						<li class="menu_item split_left">Pour-Over Coffee <span class="menu_price">$3.5</span></li>
+						<li class="menu_item split_right">Cold Brew Iced Coffee <span class="menu_price">$3.5</span></li>
+						<li class="menu_item menu_last split_left">French Press to share <span class="menu_price">7</span></li>
+						<li class="menu_item menu_last split_right">Chemex to share <span class="menu_price">7</span></li>
+					</ul>
+				</div>
+				<div class="menu_set">
+					<h2>Espresso Bar</h2>
+					<ul class="menu_list clearfix">
+						<li class="menu_item split_left">Espresso <span class="menu_price">2.5</span></li>
+						<li class="menu_item split_right">Cappuccino <span class="menu_price">3.75</span></li>
+						<li class="menu_item split_left">Latte <span class="menu_price">4</span></li>
+						<li class="menu_item split_right">Mocha <span class="menu_price">4.5</span></li>
+						<li class="menu_item split_left">Macchiato <span class="menu_price">3</span></li>
+						<li class="menu_item split_right">Americano <span class="menu_price">3.5</span></li>
+						<li class="menu_item split_left">Maple Macchiato <span class="menu_price">3.5</span></li>
+						<li class="menu_item split_right">Honey Macchiato <span class="menu_price">5</span></li>
+						<li class="menu_item menu_last split_left">Cajita Latte <span class="menu_price">5</span></li>
+						<li class="menu_item menu_last split_right">Chai <span class="menu_price">4</span></li>
+					</ul>
+				</div>
+			</div>
 		</section>
-
-		<section>
-			<!-- Location -->
+		<section class="bar location">
+			<div class="container clearfix">
+				<div class="split_left">
+					<h3>Hours & Location</h3>
+					<p>
+						Open 7am - 5pm, 7 days a Week
+					</p>
+					<p>
+						410-509-8010
+					</p>
+					<p>
+						Grinders Coffee Co.
+						<br>
+						4511 W 31st St.
+						<br>
+						Baltimore, MD 21232
+					</p>
+					<a href="#" class="button">Get Directions</a>
+				</div>
+				<figure class="split_right picture">
+					<img src="images/location.jpg" alt="">
+				</figure>
+			</div>
 		</section>
-
-		<footer>
-			<!-- Footer -->
+		<footer class="bar bar_black footer">
+			<div class="container container_wide">
+				<p class="footer_copyright">
+					&copy; 2015 Grinders Coffee Co.
+				</p>
+				<nav class="footer_nav">
+					<a href="#" class="footer_nav_item" target="_blank">Twitter</a>
+					<a href="#" class="footer_nav_item" target="_blank">Facebook</a>
+					<a href="#" class="footer_nav_item footer_nav_last" target="_blank">Instagram</a>
+				</nav>
+			</div>
 		</footer>
-
 	</body>
 </html>
