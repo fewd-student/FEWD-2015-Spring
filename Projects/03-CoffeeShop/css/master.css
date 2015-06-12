@@ -4,7 +4,7 @@ body {
 	font-size: 16px;
 	line-height: 1.6;
 	margin: 0;
-	min-width: 940px;
+/* 	min-width: 940px; */
 	padding: 0;
 }
 
@@ -24,7 +24,7 @@ h6 {
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 40px;
 }
 
 h2 {
@@ -57,7 +57,7 @@ p {
 	background: #fff;
 	clear: both;
 	overflow: hidden;
-	padding: 100px 0;
+	padding: 50px 0;
 	width: 100%;
 }
 
@@ -68,32 +68,6 @@ p {
 
 .bar_gold {
 	background-color: #AC8420;
-}
-
-/* Container */
-
-.container {
-	margin: 0 auto;
-	width: 620px;
-}
-
-.container_wide {
-	width: 900px;
-}
-
-/* Splits */
-
-.split_left,
-.split_right {
-	width: 48%;
-}
-
-.split_left {
-	float: left;
-}
-
-.split_right {
-	float: right;
 }
 
 /* Pictures */
@@ -125,7 +99,7 @@ p {
 .header {
 	background: #111 url(../images/header.jpg) no-repeat center;
 	background-size: cover;
-	padding: 150px 0 125px;
+	padding: 75px 0;
 	text-align: center;
 }
 
@@ -145,7 +119,7 @@ p {
 
 .intro {
 	color: #ccc;
-	font-size: 22px;
+	font-size: 18px;
 	margin: 20px 0 0;
 }
 
@@ -153,7 +127,6 @@ p {
 
 .menu {
 	color: #fff;
-	padding: 65px 0;
 }
 
 .menu h2 {
@@ -177,7 +150,7 @@ p {
 	padding: 10px 0 15px;
 }
 
-.menu_last {
+.menu_mobile_last {
 	border: none;
 }
 
@@ -249,4 +222,47 @@ p {
 	height: 50px;
 	margin: 0 auto;
 	width: 50px;
+}
+
+
+/* SM */
+@media screen and (min-width: 500px) {
+
+}
+
+/* MD */
+@media screen and (min-width: 740px) {
+	h1 {
+		font-size: 60px;
+	}
+
+	.bar {
+		padding: 100px 0;
+	}
+
+	.header {
+		padding: 150px 0 125px;
+	}
+
+	.intro {
+		font-size: 22px;
+	}
+
+	.menu {
+		padding: 65px 0;
+	}
+
+	.menu_last {
+		border: none;
+	}
+}
+
+/* LG */
+@media screen and (min-width: 980px) {
+
+}
+
+/* XL */
+@media screen and (min-width: 1220px) {
+
 }
