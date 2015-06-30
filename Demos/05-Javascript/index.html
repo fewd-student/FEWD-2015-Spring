@@ -18,7 +18,12 @@
 	<body>
 		<form action="#" method="GET" class="calculator">
 			<input type="text" name="input_one" class="input_one">
-			<input type="text" name="operator" class="operator" size="1">
+			<select name="operator" class="operator">
+				<option value="+">+</option>
+				<option value="-">-</option>
+				<option value="*">*</option>
+				<option value="/">/</option>
+			</select>
 			<input type="text" name="input_two" class="input_two">
 			<input type="submit" name="submit" value="=">
 			<input type="text" name="output" class="output" readonly>
