@@ -2,15 +2,20 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
 		<title>Grinders Coffee Shop</title>
 		<link href="http://fonts.googleapis.com/css?family=Lato|Sanchez" rel="stylesheet">
 		<link href="css/normalize.css" rel="stylesheet">
 		<link href="css/grid.css" rel="stylesheet">
-<!-- 		<link href="css/master.css" rel="stylesheet"> -->
+		<link href="css/master.css" rel="stylesheet">
 
 		<style>
+/*
 			[class*=fs-row] { box-shadow: inset 0 0 0 2px green; }
 			[class*=fs-cell] { box-shadow: inset 0 0 0 2px purple; }
+*/
 		</style>
 	</head>
 	<body class="fs-grid">
@@ -56,7 +61,7 @@
 			<div class="fs-row">
 				<div class="fs-cell-centered fs-md-5 fs-lg-8 fs-xl-7">
 					<div class="fs-row">
-						<figure class="picture fs-cell-right fs-xs-full fs-sm-2 fs-md-half fs-lg-half">
+						<figure class="picture fs-cell-right fs-xs-full fs-sm-1 fs-md-half fs-lg-half">
 							<img src="images/location.jpg" alt="">
 						</figure>
 						<div class="fs-cell fs-xs-full fs-sm-2 fs-md-half fs-lg-half">
@@ -83,15 +88,17 @@
 		</section>
 		<footer class="bar bar_black footer">
 			<div class="fs-row">
-				<div class="fs-cell">
-					<p class="footer_copyright">
-						&copy; 2015 Grinders Coffee Co.
-					</p>
+				<div class="fs-cell-right fs-lg-3">
 					<nav class="footer_nav">
 						<a href="#" class="footer_nav_item" target="_blank">Twitter</a>
 						<a href="#" class="footer_nav_item" target="_blank">Facebook</a>
 						<a href="#" class="footer_nav_item footer_nav_last" target="_blank">Instagram</a>
 					</nav>
+				</div>
+				<div class="fs-cell fs-lg-3">
+					<p class="footer_copyright">
+						&copy; 2015 Grinders Coffee Co.
+					</p>
 				</div>
 			</div>
 		</footer>
