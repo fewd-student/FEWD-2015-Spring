@@ -9,8 +9,6 @@ function calculate(event) {
 	var inputTwo = $(".input_two").val();
 	var operator = $(".operator").val();
 
-	var operators = ["+","-","*","/"];
-
 	var equation;
 	var result;
 	var valid = true;
@@ -18,10 +16,6 @@ function calculate(event) {
 	equation = inputOne + operator + inputTwo;
 
 	if (isNaN(inputOne) || isNaN(inputTwo)) {
-		valid = false;
-	}
-
-	if (!$.inArray(operator, operators)) {
 		valid = false;
 	}
 
