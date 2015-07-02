@@ -7,9 +7,6 @@
 
 		<link href="http://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
 		<link href="css/main.css" rel="stylesheet">
-
-		<script src="js/jquery-1.11.2.min.js"></script>
-		<script src="js/main.js"></script>
 	</head>
 	<body>
 		<div class="calculator">
@@ -18,7 +15,7 @@
 					<h1 class="title">Calcutron z900</h1>
 				</header>
 				<input type="text" name="output" value="0" class="display" readonly>
-				<button type="button" class="button operator" data-action="(">(</button>
+				<button type="button" class="button operator js-operator" data-action="(">(</button>
 				<button type="button" class="button operator" data-action=")">)</button>
 				<button type="button" class="button operator" data-action="*">&#215;</button>
 				<button type="button" class="button operator" data-action="/">&#247;</button>
@@ -39,5 +36,8 @@
 				<button type="button" class="button clear">C</button>
 			</div>
 		</div>
+
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/main.js"></script>
 	</body>
 </html>
