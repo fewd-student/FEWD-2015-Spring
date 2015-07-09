@@ -1,3 +1,4 @@
+
 	var currentInput = "";
 	var operators = ["+", "-", "/", "*"];
 	var hasOperated = false;
@@ -11,6 +12,30 @@
 		$(".clear").click(onClear);
 
 	});
+
+
+	var zeroActive = true;
+	var blinkInterval;
+
+	function blinkZero() {
+		if (zeroActive) {
+			$(".display").val("");
+		} else {
+			$(".display").val("0");
+		}
+
+		zeroActive = !zeroActive;
+	}
+
+	function startBlinkZero() {
+		blinkInterval = setInterval("blinkZero()", 500);
+	}
+
+	function stopBlinkZero() {
+		clearInterval(blinkInterval);
+		$(".display").css({ opacity: 1 });
+	}
+
 
 	function onButtonPress(e) {
 		// Get current action
@@ -72,5 +97,11 @@
 
 	// Update display
 	function updateDisplay() {
+		if (currentInput == "0") {
+			startBlinkZero();
+		} else {
+			stopBlinkZero();
+		}
+
 		$(".display").val(currentInput);
 	}
