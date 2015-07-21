@@ -1,0 +1,8 @@
+
+	.highlighted {
+		background: yellow;
+	}
+
+	.highlighted.active {
+		background: red;
+	}
