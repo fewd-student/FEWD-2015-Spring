@@ -1,64 +1,121 @@
 <!doctype html>
-<html>
+<html class="no-js">
 	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 		<title>PicticiousPro</title>
 
-		<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic|Roboto+Condensed:300' rel='stylesheet' type='text/css'>
+		<link href="http://fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,600,600italic|Roboto+Condensed:300" rel="stylesheet">
 
 		<link href="css/normalize.css" rel="stylesheet">
 		<link href="css/grid.css" rel="stylesheet">
-		<link href="css/master.css" rel="stylesheet">
+		<link href="css/site.css" rel="stylesheet">
 
+		<script src="js/jquery.js"></script>
+		<script src="js/site.js"></script>
 	</head>
 	<body class="fs-grid">
-		
-		<header>
-			<div class="fs-row">
-				<div class="fs-cell">
-					<h1>PicticiousPro</h1>
-				</div>
+
+<!--
+		<div class="progress">
+			<span class="fill wow" style="width: 30%"></span>
+		</div>
+		<div class="progress">
+			<span class="fill wow" style="width: 70%"></span>
+		</div>
+		<div class="progress">
+			<span class="fill wow" style="width: 50%"></span>
+		</div>
+-->
+
+		<header class="fs-row header">
+			<div class="fs-cell">
+				<a href="#" class="logo"><strong>Picticious</strong>Pro</a>
 			</div>
 		</header>
-
-		<section>
-			<div class="fs-row">
-				<div class="fs-cell fs-lg-6">
-					<h2>Nice Shot</h2>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
-					<a href="#">Download Now</a>
+		<section class="bar intro">
+			<div class="fs-row padded intro_row">
+				<div class="fs-cell fs-md-half fs-lg-half wow fadeIn">
+					<h1 class="intro_heading">Nice Shot</h1>
+					<p class="intro_content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
+					<a href="#download" class="button intro_button">Download Now</a>
 				</div>
 			</div>
 		</section>
+		<section class="fs-row bar padded features">
+			<div class="fs-cell fs-md-third fs-lg-third feature feature_tag wow fadeIn" data-wow-delay="0">
+				<h2 class="feature_heading">Tag It All</h2>
+				<p class="feature_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit aliquet felis, quis.</p>
+			</div>
+			<div class="fs-cell fs-md-third fs-lg-third feature feature_cloud wow fadeIn" data-wow-delay="0.25s">
+				<h2 class="feature_heading">Cloud Sync</h2>
+				<p class="feature_content">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum.</p>
+			</div>
+			<div class="fs-cell fs-md-third fs-lg-third feature feature_map wow fadeIn" data-wow-delay="0.5s">
+				<h2 class="feature_heading">Photo Map</h2>
+				<p class="feature_content">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Ligula porta felis.</p>
+			</div>
+		</section>
+		<section class="bar gallery">
+			<div class="fs-row padded gallery_row">
+				<div class="fs-cell fs-md-4 fs-lg-4 gallery_block">
+					<div class="wow fadeInUp">
+						<h3 class="gallery_heading">Capture Life</h3>
+						<p class="gallery_content">Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+					</div>
+				</div>
+				<a href="images/photos/01.jpg" class="fs-cell fs-xs-half fs-sm-fourth fs-md-1 fs-lg-2 gallery_item gallery_item_first js-lightbox wow zoomIn" data-lightbox-gallery="photo_gallery" data-wow-delay="0">
+					<img src="images/photos/thumb_01.jpg" alt="">
+				</a>
+				<a href="images/photos/02.jpg" class="fs-cell fs-xs-half fs-sm-fourth fs-md-1 fs-lg-2 gallery_item gallery_item_first js-lightbox wow zoomIn" data-lightbox-gallery="photo_gallery" data-wow-delay="0.1s">
+					<img src="images/photos/thumb_02.jpg" alt="">
+				</a>
+				<a href="images/photos/03.jpg" class="fs-cell fs-xs-half fs-sm-fourth fs-md-1 fs-lg-2 gallery_item js-lightbox wow zoomIn" data-lightbox-gallery="photo_gallery" data-wow-delay="0.2s">
+					<img src="images/photos/thumb_03.jpg" alt="">
+				</a>
+				<a href="images/photos/04.jpg" class="fs-cell fs-xs-half fs-sm-fourth fs-md-1 fs-lg-2 gallery_item js-lightbox wow zoomIn" data-lightbox-gallery="photo_gallery" data-wow-delay="0.3s">
+					<img src="images/photos/thumb_04.jpg" alt="">
+				</a>
+				<a href="images/photos/05.jpg" class="fs-cell fs-xs-half fs-sm-fourth fs-md-1 fs-lg-2 gallery_item js-lightbox wow zoomIn" data-lightbox-gallery="photo_gallery" data-wow-delay="0.4s">
+					<img src="images/photos/thumb_05.jpg" alt="">
+				</a>
+				<a href="images/photos/06.jpg" class="fs-cell fs-xs-half fs-sm-fourth fs-md-1 fs-lg-2 gallery_item js-lightbox wow zoomIn" data-lightbox-gallery="photo_gallery" data-wow-delay="0.5s">
+					<img src="images/photos/thumb_06.jpg" alt="">
+				</a>
+				<a href="images/photos/07.jpg" class="fs-cell fs-xs-half fs-sm-fourth fs-md-1 fs-lg-2 gallery_item js-lightbox wow zoomIn" data-lightbox-gallery="photo_gallery" data-wow-delay="0.6s">
+					<img src="images/photos/thumb_07.jpg" alt="">
+				</a>
+				<a href="images/photos/08.jpg" class="fs-cell fs-xs-half fs-sm-fourth fs-md-1 fs-lg-2 gallery_item js-lightbox wow zoomIn" data-lightbox-gallery="photo_gallery" data-wow-delay="0.7s">
+					<img src="images/photos/thumb_08.jpg" alt="">
+				</a>
+			</div>
+		</section>
+		<section class="fs-row bar padded download">
+			<div class="fs-cell">
+				<h2 class="download_heading">Download Now</h2>
+				<p class="download_content">Nullam id dolor id nibh ultricies vehicula deposit quid pro quo hic escorol.</p>
+				<div class="download_buttons">
+					<a href="#" class="button download_button download_apple wow flipInX" data-wow-delay="0">App Store</a>
+					<a href="#" class="button download_button download_google wow flipInX" data-wow-delay="0.25s">Play Store</a>
+					<a href="#" class="button download_button download_amazon wow flipInX" data-wow-delay="0.5s">Amazon Store</a>
+				</div>
+			</div>
+		</section>
+		<footer class="fs-row footer">
+			<div class="fs-cell-right fs-md-2 fs-lg-half social_links">
+				<a href="#" class="social_link social_facebook">Facebook</a>
+				<a href="#" class="social_link social_twitter">Twitter</a>
+				<a href="#" class="social_link social_google">Google+</a>
+			</div>
+			<div class="fs-cell fs-md-4 fs-lg-half footer_content">
+				<a href="#" class="footer_link">Support</a>
+				<a href="#" class="footer_link">Privacy &amp; Terms</a>
+				<p class="footer_text">&copy; 2014 PicticiousPro</p>
+			</div>
+		</footer>
 
-
-Tag It All
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit aliquet felis, quis.
-
-Cloud Sync
-Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum.
-
-Photo Map
-Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Ligula porta felis.
-
-
-Capture Life
-Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
-
-
-Download Now
-Nullam id dolor id nibh ultricies vehicula deposit quid pro quo hic escorol. 
-
-
-Support
-Privacy & Terms
-© 2014 PicticiousPro
-	
 		<script>
-		(function(){if(typeof FSGridBookmarklet==='undefined'){document.body.appendChild(document.createElement('script')).src='https://formstone.it/js/bookmarklet/grid.js';}else{FSGridBookmarklet();}})();
+			(function(){if(typeof FSGridBookmarklet==='undefined'){document.body.appendChild(document.createElement('script')).src='http://beta.formstone.it/js/bookmarklet/grid.js';}else{FSGridBookmarklet();}})();
 		</script>
-
 	</body>
 </html>
