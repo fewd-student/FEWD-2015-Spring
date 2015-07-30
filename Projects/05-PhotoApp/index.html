@@ -9,24 +9,29 @@
 
 		<link href="css/normalize.css" rel="stylesheet">
 		<link href="css/grid.css" rel="stylesheet">
-		<link href="css/site.css" rel="stylesheet">
+		<link href="css/animate.css" rel="stylesheet">
+		<link href="css/master.css" rel="stylesheet">
 
-		<script src="js/jquery.js"></script>
-		<script src="js/site.js"></script>
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/master.js"></script>
+
+		<!--[if lte IE 8]>
+			<link href="css/grid.ie.css" rel="stylesheet">
+			<link href="css/master.ie.css" rel="stylesheet">
+			<script src="js/matchMedia-ie8.js"></script>
+		<![endif]-->
+
+		<!--[if lte IE 9]>
+			<script src="js/html5.js"></script>
+		<![endif]-->
+
+		<!--[if IE 9]>
+			<script src="js/matchMedia-ie9.js"></script>
+		<![endif]-->
+
 	</head>
 	<body class="fs-grid">
-
-<!--
-		<div class="progress">
-			<span class="fill wow" style="width: 30%"></span>
-		</div>
-		<div class="progress">
-			<span class="fill wow" style="width: 70%"></span>
-		</div>
-		<div class="progress">
-			<span class="fill wow" style="width: 50%"></span>
-		</div>
--->
 
 		<header class="fs-row header">
 			<div class="fs-cell">
@@ -36,9 +41,9 @@
 		<section class="bar intro">
 			<div class="fs-row padded intro_row">
 				<div class="fs-cell fs-md-half fs-lg-half wow fadeIn">
-					<h1 class="intro_heading">Nice Shot</h1>
-					<p class="intro_content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
-					<a href="#download" class="button intro_button">Download Now</a>
+					<h1 class="intro_heading wow fadeInUp">Nice Shot</h1>
+					<p class="intro_content wow fadeInUp" data-wow-delay="0.25s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
+					<a href="#download" class="button intro_button wow fadeInUp" data-wow-delay="1s">Download Now</a>
 				</div>
 			</div>
 		</section>

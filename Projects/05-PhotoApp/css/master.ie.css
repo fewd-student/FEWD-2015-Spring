@@ -1,0 +1,106 @@
+
+	.gallery_item {
+		margin-bottom: 5px;
+	}
+
+	.intro_row:before {
+		background: url(../images/intro_phone.png) no-repeat;
+		bottom: 0;
+		content: '';
+		height: 500px;
+		position: absolute;
+		right: -30px;
+		width: 325px;
+
+		transition: height 0.5s ease;
+		/* transition: transform 0.5s ease; */
+	}
+
+	.intro_row:hover:before {
+		height: 525px;
+		/* transform: scale(1.05); */
+	}
+
+	.feature {
+		text-align: center;
+	}
+
+	.feature_heading:before {
+		display: block;
+		margin: 0 auto 10px;
+	}
+
+	.feature_tag .feature_heading:before {
+		background-position: 0 -120px;
+		height: 64px;
+		width: 64px;
+	}
+
+	.feature_cloud .feature_heading:before {
+		background-position: -80px -114px;
+		height: 64px;
+		width: 72px;
+	}
+
+	.feature_map .feature_heading:before {
+		background-position: -160px -120px;
+		height: 64px;
+		width: 50px;
+	}
+
+	.gallery_item {
+		margin-bottom: 10px;
+	}
+
+	.download_content {
+		margin-bottom: 50px;
+	}
+
+	.download_button {
+		width: 25%;
+	}
+
+	.footer {
+		text-align: left;
+	}
+
+	.footer_content {
+		line-height: 38px;
+	}
+
+	.footer_text {
+		display: inline-block;
+		margin: 0;
+	}
+
+	.footer_link {
+		margin: 0 10px 0 0;
+	}
+
+	.social_links {
+		text-align: right;
+	}
+
+	.social_link {
+		margin: 0;
+	}
+
+	.padded {
+		padding: 100px 0;
+	}
+
+	.intro_row:before {
+		right: 70px;
+	}
+
+	.gallery_heading {
+		margin-top: 50px;
+	}
+
+	.gallery_item {
+		margin-bottom: 15px;
+	}
+
+	.download_button {
+		width: 200px;
+	}

@@ -1,29 +1,4 @@
 
-	.progress {
-		height: 40px;
-		width: 300px;
-		background: gray;
-		overflow: hidden;
-		margin: 10px;
-	}
-
-	.progress .fill {
-		display: block;
-		height: 40px;
-		width: 0;
-		background: red;
-
-		transform: translateX(-100%);
-		transition: transform 0.5s ease;
-	}
-
-	.progress .fill.animated {
-		transform: translateX(0);
-	}
-
-
-
-
 	/*
 		blue:		#2b3f4c;
 		orange: 	#e77e04;
@@ -123,6 +98,15 @@
 		color: #e77e04;
 		font-size: 20px;
 		text-transform: uppercase;
+
+		box-shadow: 0 0 0 0 #fff;
+		transition: background 0.2s linear, box-shadow 0.2s linear, color 0.2s linear;
+	}
+
+	.intro_button:hover {
+		box-shadow: 0 0 0 2px #fff;
+		background: transparent;
+		color: #fff;
 	}
 
 	/* Features */
@@ -187,6 +171,12 @@
 		overflow: hidden;
 		text-indent: 100%;
 		white-space: nowrap;
+		margin: 0 10px;
+		transition: transform 0.2s ease;
+	}
+
+	.download_button:hover {
+		transform: translateY(-5px);
 	}
 
 	.download_apple {
@@ -308,6 +298,14 @@
 			position: absolute;
 			right: -30px;
 			width: 325px;
+
+			transition: height 0.5s ease;
+			/* transition: transform 0.5s ease; */
+		}
+
+		.intro_row:hover:before {
+			height: 525px;
+			/* transform: scale(1.05); */
 		}
 
 		.feature {
@@ -391,7 +389,6 @@
 		}
 
 		.intro_row:before {
-			height: 550px;
 			right: 70px;
 		}
 
